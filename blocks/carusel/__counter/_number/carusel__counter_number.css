@@ -1,0 +1,9 @@
+.carusel__counter_number {
+    width: 8px;
+    height: 21px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: rgba(76, 78, 80, 1);
+}

@@ -1,0 +1,15 @@
+.carusel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 0;
+    gap: 20px;
+    width: 1568px;
+}
+
+@media screen and (max-width: 1440px) {
+    .carusel {
+        width: 1440px;
+    }
+
+}

@@ -1,0 +1,23 @@
+.titles__heading_black {
+    max-width: 406px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 1)
+}
+
+@media screen and (max-width: 768px) {
+    .titles__heading_black {
+        width: 215px;
+        height: 26px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 26px;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 1);
+    }
+}

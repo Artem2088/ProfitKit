@@ -1,0 +1,22 @@
+.titles {
+    max-width: 962px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 0 40px 85px;
+    gap: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    .titles {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        padding: 0 0 25px 0;
+        gap: 5px;
+        width: 215px;
+        height: 84px;
+    }
+
+}

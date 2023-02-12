@@ -1,0 +1,24 @@
+.carusel__name {
+    max-width: 284px;
+    height: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+    margin: 0;
+    padding: 10px 25px 5px;
+}
+
+@media screen and (max-width: 768px) {
+    .carusel__name {
+        width: 220px;
+        height: 44px;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        padding: 10px 20px 15px;
+    }
+}

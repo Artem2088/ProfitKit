@@ -1,0 +1,14 @@
+.carusel__length {
+    width: 116px;
+    height: 2px;
+    padding: 0 109px 25px;
+    position: absolute;
+    left: -1px;
+    top: 321px;
+}
+
+@media screen and (max-width: 768px) {
+    .carusel__length {
+        display: none;
+    }
+}

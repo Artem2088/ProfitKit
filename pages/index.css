@@ -1,0 +1,35 @@
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/rubik.css");
+/* ----------------------------основная часть------------------___ */
+@import url("../blocks/root/root.css");
+@import url("../blocks/wraper/wraper.css");
+/* -----------------------carusel------------------------------ */
+@import url("../blocks/products/products.css");
+@import url("../blocks/carusel/carusel.css");
+@import url("../blocks/carusel/__basket/carusel__basket.css");
+@import url("../blocks/carusel/__basket/_icon/carusel__basket_icon.css");
+@import url("../blocks/carusel/__basket/_title/carusel__basket_title.css");
+@import url("../blocks/carusel/__card/carusel__card.css");
+@import url("../blocks/carusel/__counter/carusel__counter.css");
+@import url("../blocks/carusel/__counter/_plus/carusel__counter_plus.css");
+@import url("../blocks/carusel/__counter/_number/carusel__counter_number.css");
+@import url("../blocks/carusel/__counter/_minus/carusel__counter_minus.css");
+@import url("../blocks/carusel/__description/carusel__description.css");
+@import url("../blocks/carusel/__images/carusel__images.css");
+@import url("../blocks/carusel/__length/carusel__length.css");
+@import url("../blocks/carusel/__btn/carusel__btn.css");
+@import url("../blocks/carusel/__btn/_second/carusel__btn_second.css");
+@import url("../blocks/carusel/__name/carusel__name.css");
+@import url("../blocks/carusel/__price/carusel__price.css");
+@import url("../blocks/carusel/__price/_current/carusel__price_current.css");
+@import url("../blocks/carusel/__price/_old/carusel__price_old.css");
+@import url("../blocks/carusel/__footer/carusel__footer.css");
+@import url("../blocks/carusel/__counter/_span/carusel__counter_span.css");
+@import url("../blocks/carusel/__images/_main/carusel__images_main.css");
+@import url("../blocks/carusel/__arrow/carusel__arrow.css");
+@import url("../blocks/carusel/__arrow/_rigth/carusel__arrow_rigth.css");
+@import url("../blocks/carusel/__images/_label/carusel__images_label.css");
+/* ------------------------titles--------------------------------- */
+@import url("../blocks/titles/titles.css");
+@import url("../blocks/titles/__heading/titles__heading.css");
+@import url("../blocks/titles/__heading/_black/titles__heading_black.css");

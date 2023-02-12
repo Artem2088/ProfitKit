@@ -1,0 +1,21 @@
+.carusel__btn {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    left: 278px;
+    top: 0;
+    border-radius: 50px;
+    background: url("../../../images/icons/heart.svg") no-repeat center rgba(255, 255, 255, 1);
+    margin: 20px 20px 0 0;
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+    .carusel__btn {
+        left: 204px;
+        top: 0;
+        margin: 25px 20px 0 0;
+    }
+}

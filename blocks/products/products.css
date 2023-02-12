@@ -1,0 +1,11 @@
+.products {
+    max-width: 1568px;
+    padding: 80px 0 80px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 768px) {
+    .products {
+        padding: 40px 0 40px;
+    }
+}
