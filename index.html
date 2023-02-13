@@ -4,219 +4,299 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="pages/index.css" />
+    <link rel="stylesheet" href="styles/base/style.css" />
     <title>ProfitKit</title>
   </head>
 
-  <body class="root">
-    <main class="wraper">
-      <section class="products">
-        <div class="titles">
-          <span class="titles__heading_black">популярные товары</span>
-          <span class="titles__heading">Недавно купили</span>
-          <span class="titles__heading">Вас может заинтересовать</span>
+  <body>
+    <main class="content">
+      <section class="titles">
+        <h2 class="titles__heading_black">популярные товары</h2>
+        <span class="titles__heading">Недавно купили</span>
+        <span class="titles__heading">Вас может заинтересовать</span>
+      </section>
+      <section class="carusel">
+        <button class="carusel-arrow">
+          <img
+            class="carusel-arrow__img"
+            src="./assets/icons/arrow.svg"
+            alt="стрелка влево"
+          />
+        </button>
+        <div class="carusel-card">
+          <div class="carusel-card__images">
+            <img
+              class="carusel-card__images_main"
+              src="./assets/images/nofoto.jpg"
+              alt="Нет фото"
+            />
+            <img
+              class="carusel-card__length"
+              src="./assets/icons/length.svg"
+              alt="прокрутка"
+            />
+            <button class="carusel-card__btn">
+              <img
+                class="carusel-card__btn_img"
+                src="./assets/icons/heart.svg"
+                alt="избранное"
+              />
+            </button>
+            <button class="carusel-card__btn carusel-card__btn_second">
+              <img
+                class="carusel-card__btn_img"
+                src="./assets/icons/scales.svg"
+                alt="сравнение"
+              />
+            </button>
+          </div>
+          <div class="carusel-description">
+            <h4 class="carusel-description__name">
+              Тарелка керамическая ручной работы &Oslash; 12
+            </h4>
+            <div class="carusel-price">
+              <div class="carusel-price__current">600 ₽</div>
+              <del class="carusel-price__old">810 ₽</del>
+            </div>
+            <div class="carusel-footer">
+              <div class="carusel-footer__counter">
+                <button class="carusel-footer__sign">
+                  <img
+                    class="carusel-footer_img"
+                    src="./assets/icons/minus.svg"
+                    alt="минус"
+                  />
+                </button>
+                <span class="carusel-footer__number">1</span>
+                <button class="carusel-footer__sign">
+                  <img
+                    class="carusel-footer_img"
+                    src="./assets/icons/plus.svg"
+                    alt="плюс"
+                  />
+                </button>
+              </div>
+              <button class="carusel-basket">
+                <img
+                  class="carusel-basket__icon"
+                  src="./assets/icons/basket.svg"
+                  alt="корзина"
+                />
+                <span class="carusel-basket__title">В корзину</span>
+              </button>
+            </div>
+          </div>
         </div>
-        <figure class="carusel">
-          <button class="carusel__arrow"></button>
 
-          <!-- первая карточка -->
-          <div class="carusel__card">
-            <div class="carusel__images">
+        <div class="carusel-card">
+          <div class="carusel-card__images">
+            <img
+              class="carusel-card__images_main"
+              src="./assets/images/scarlet.jpg"
+              alt="Нет фото"
+            />
+            <img
+              class="carusel-card__length"
+              src="./assets/icons/length.svg"
+              alt="прокрутка"
+            />
+            <button class="carusel-card__btn">
               <img
-                class="carusel__images_main"
-                src="./images/nofoto.jpg"
-                alt="Нет фото"
+                class="carusel-card__btn_img"
+                src="./assets/icons/heart.svg"
+                alt="избранное"
               />
+            </button>
+            <button class="carusel-card__btn carusel-card__btn_second">
               <img
-                class="carusel__length"
-                src="./images/icons/length.svg"
-                alt="прокрутка"
+                class="carusel-card__btn_img"
+                src="./assets/icons/scales.svg"
+                alt="сравнение"
               />
-              <button class="carusel__btn"></button>
-              <button class="carusel__btn carusel__btn_second"></button>
+            </button>
+          </div>
+          <div class="carusel-description">
+            <h4 class="carusel-description__name">
+              Кашпо для цветов керамическое СИМПЛГРЕЙ
+            </h4>
+            <div class="carusel-price">
+              <div class="carusel-price__current">450 ₽</div>
             </div>
-            <div class="carusel__description">
-              <span class="carusel__name"
-                >Тарелка керамическая ручной работы &Oslash; 12</span
-              >
-              <div class="carusel__price">
-                <div class="carusel__price_current">600 ₽</div>
-                <del class="carusel__price_old">810 ₽</del>
-              </div>
-              <div class="carusel__footer">
-                <div class="carusel__counter">
-                  <button class="carusel__counter_minus">
-                    <span class="carusel__counter_span">-</span>
-                  </button>
-                  <span class="carusel__counter_number">1</span>
-                  <button class="carusel__counter_plus">
-                    <span class="carusel__counter_span">+</span>
-                  </button>
-                </div>
-                <button class="carusel__basket">
+            <div class="carusel-footer">
+              <div class="carusel-footer__counter">
+                <button class="carusel-footer__sign">
                   <img
-                    class="carusel__basket_icon"
-                    src="./images/icons/basket.svg"
-                    alt="корзина"
+                    class="carusel-footer_img"
+                    src="./assets/icons/minus.svg"
+                    alt="минус"
                   />
-                  <span class="carusel__basket_title">В корзину</span>
+                </button>
+                <span class="carusel-footer__number">1</span>
+                <button class="carusel-footer__sign">
+                  <img
+                    class="carusel-footer_img"
+                    src="./assets/icons/plus.svg"
+                    alt="плюс"
+                  />
                 </button>
               </div>
+              <button class="carusel-basket">
+                <img
+                  class="carusel-basket__icon"
+                  src="./assets/icons/basket.svg"
+                  alt="корзина"
+                />
+                <span class="carusel-basket__title">В корзину</span>
+              </button>
             </div>
           </div>
+        </div>
 
-          <!-- вторая карточка -->
-          <div class="carusel__card">
-            <div class="carusel__images">
+        <div class="carusel-card">
+          <div class="carusel-card__images">
+            <img
+              class="carusel-card__images_main"
+              src="./assets/images/watch.jpg"
+              alt="Нет фото"
+            />
+            <img
+              class="carusel-card__label"
+              src="./assets/icons/hit.svg"
+              alt="Хит"
+            />
+            <img
+              class="carusel-card__length"
+              src="./assets/icons/length.svg"
+              alt="прокрутка"
+            />
+            <button class="carusel-card__btn">
               <img
-                class="carusel__images_main"
-                src="./images/scarlet.jpg"
-                alt="Нет фото"
+                class="carusel-card__btn_img"
+                src="./assets/icons/heart.svg"
+                alt="избранное"
               />
+            </button>
+            <button class="carusel-card__btn carusel-card__btn_second">
               <img
-                class="carusel__length"
-                src="./images/icons/length.svg"
-                alt="прокрутка"
+                class="carusel-card__btn_img"
+                src="./assets/icons/scales.svg"
+                alt="сравнение"
               />
-              <button class="carusel__btn"></button>
-              <button class="carusel__btn carusel__btn_second"></button>
+            </button>
+          </div>
+          <div class="carusel-description">
+            <h4 class="carusel-description__name">
+              Умные часы SMARTWATCH XM 109 черный
+            </h4>
+            <div class="carusel-price">
+              <div class="carusel-price__current">12 999 ₽</div>
             </div>
-            <div class="carusel__description">
-              <span class="carusel__name"
-                >Кашпо для цветов керамическое СИМПЛГРЕЙ</span
-              >
-              <div class="carusel__price">
-                <div class="carusel__price_current">450 ₽</div>
-                <!-- Включить по необходимости -->
-                <!-- <del class="carusel__price_old">810 ₽</del> -->
-              </div>
-              <div class="carusel__footer">
-                <div class="carusel__counter">
-                  <button class="carusel__counter_minus">
-                    <span class="carusel__counter_span">-</span>
-                  </button>
-                  <span class="carusel__counter_number">1</span>
-                  <button class="carusel__counter_plus">
-                    <span class="carusel__counter_span">+</span>
-                  </button>
-                </div>
-                <button class="carusel__basket">
+            <div class="carusel-footer">
+              <div class="carusel-footer__counter">
+                <button class="carusel-footer__sign">
                   <img
-                    class="carusel__basket_icon"
-                    src="./images/icons/basket.svg"
-                    alt="корзина"
+                    class="carusel-footer_img"
+                    src="./assets/icons/minus.svg"
+                    alt="минус"
                   />
-                  <span class="carusel__basket_title">В корзину</span>
+                </button>
+                <span class="carusel-footer__number">1</span>
+                <button class="carusel-footer__sign">
+                  <img
+                    class="carusel-footer_img"
+                    src="./assets/icons/plus.svg"
+                    alt="плюс"
+                  />
                 </button>
               </div>
+              <button class="carusel-basket">
+                <img
+                  class="carusel-basket__icon"
+                  src="./assets/icons/basket.svg"
+                  alt="корзина"
+                />
+                <span class="carusel-basket__title">В корзину</span>
+              </button>
             </div>
           </div>
+        </div>
 
-          <!-- третья карточка -->
-          <div class="carusel__card">
-            <div class="carusel__images">
+        <div class="carusel-card">
+          <div class="carusel-card__images">
+            <img
+              class="carusel-card__images_main"
+              src="./assets/images/ring.jpg"
+              alt="Нет фото"
+            />
+            <img
+              class="carusel-card__label"
+              src="./assets/icons/new.svg"
+              alt="новинка"
+            />
+            <img
+              class="carusel-card__length"
+              src="./assets/icons/length.svg"
+              alt="прокрутка"
+            />
+            <button class="carusel-card__btn">
               <img
-                class="carusel__images_label"
-                src="./images/icons/hit.svg"
-                alt="хит"
+                class="carusel-card__btn_img"
+                src="./assets/icons/heart.svg"
+                alt="избранное"
               />
+            </button>
+            <button class="carusel-card__btn carusel-card__btn_second">
               <img
-                class="carusel__images_main"
-                src="./images/watch.jpg"
-                alt="Нет фото"
+                class="carusel-card__btn_img"
+                src="./assets/icons/scales.svg"
+                alt="сравнение"
               />
-              <img
-                class="carusel__length"
-                src="./images/icons/length.svg"
-                alt="прокрутка"
-              />
-              <button class="carusel__btn"></button>
-              <button class="carusel__btn carusel__btn_second"></button>
+            </button>
+          </div>
+          <div class="carusel-description">
+            <h4 class="carusel-description__name">
+              Золотое кольцо МАЛИКА с аметистом и фианитами
+            </h4>
+            <div class="carusel-price">
+              <div class="carusel-price__current">15 700 ₽</div>
             </div>
-            <div class="carusel__description">
-              <span class="carusel__name"
-                >Умные часы SMARTWATCH XM 109 черный</span
-              >
-              <div class="carusel__price">
-                <div class="carusel__price_current">12 999 ₽</div>
-                <!-- Включить по необходимости -->
-                <!-- <del class="carusel__price_old">810 ₽</del> -->
-              </div>
-              <div class="carusel__footer">
-                <div class="carusel__counter">
-                  <button class="carusel__counter_minus">
-                    <span class="carusel__counter_span">-</span>
-                  </button>
-                  <span class="carusel__counter_number">1</span>
-                  <button class="carusel__counter_plus">
-                    <span class="carusel__counter_span">+</span>
-                  </button>
-                </div>
-                <button class="carusel__basket">
+            <div class="carusel-footer">
+              <div class="carusel-footer__counter">
+                <button class="carusel-footer__sign">
                   <img
-                    class="carusel__basket_icon"
-                    src="./images/icons/basket.svg"
-                    alt="корзина"
+                    class="carusel-footer_img"
+                    src="./assets/icons/minus.svg"
+                    alt="минус"
                   />
-                  <span class="carusel__basket_title">В корзину</span>
+                </button>
+                <span class="carusel-footer__number">1</span>
+                <button class="carusel-footer__sign">
+                  <img
+                    class="carusel-footer_img"
+                    src="./assets/icons/plus.svg"
+                    alt="плюс"
+                  />
                 </button>
               </div>
+              <button class="carusel-basket">
+                <img
+                  class="carusel-basket__icon"
+                  src="./assets/icons/basket.svg"
+                  alt="корзина"
+                />
+                <span class="carusel-basket__title">В корзину</span>
+              </button>
             </div>
           </div>
+        </div>
 
-          <!-- четвертая карточка -->
-          <div class="carusel__card">
-            <div class="carusel__images">
-              <img
-                class="carusel__images_label"
-                src="./images/icons/new.svg"
-                alt="new"
-              />
-              <img
-                class="carusel__images_main"
-                src="./images/ring.jpg"
-                alt="Нет фото"
-              />
-              <img
-                class="carusel__length"
-                src="./images/icons/length.svg"
-                alt="прокрутка"
-              />
-              <button class="carusel__btn"></button>
-              <button class="carusel__btn carusel__btn_second"></button>
-            </div>
-            <div class="carusel__description">
-              <span class="carusel__name"
-                >Золотое кольцо МАЛИКА с аметистом и фианитами</span
-              >
-              <div class="carusel__price">
-                <div class="carusel__price_current">15 700 ₽</div>
-                <!-- Включить по необходимости -->
-                <!-- <del class="carusel__price_old">810 ₽</del> -->
-              </div>
-              <div class="carusel__footer">
-                <div class="carusel__counter">
-                  <button class="carusel__counter_minus">
-                    <span class="carusel__counter_span">-</span>
-                  </button>
-                  <span class="carusel__counter_number">1</span>
-                  <button class="carusel__counter_plus">
-                    <span class="carusel__counter_span">+</span>
-                  </button>
-                </div>
-                <button class="carusel__basket">
-                  <img
-                    class="carusel__basket_icon"
-                    src="./images/icons/basket.svg"
-                    alt="корзина"
-                  />
-                  <span class="carusel__basket_title">В корзину</span>
-                </button>
-              </div>
-            </div>
-          </div>
-          <button class="carusel__arrow carusel__arrow_rigth"></button>
-        </figure>
+        <button class="carusel-arrow carusel-arrow__right">
+          <img
+            class="carusel-arrow__img carusel-arrow__img_right"
+            src="./assets/icons/arrow.svg"
+            alt="стрелка влево"
+          />
+        </button>
       </section>
     </main>
   </body>

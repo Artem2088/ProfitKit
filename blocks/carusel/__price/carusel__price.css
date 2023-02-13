@@ -1,9 +1,0 @@
-.carusel__price {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    margin: 0;
-    padding: 0 0 10px 0;
-    gap: 10px;
-}

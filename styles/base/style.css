@@ -1,0 +1,6 @@
+@import url("../base/normalize.css");
+@import url("../../assets/fonts/rubik.css");
+/* ----------------------------основная часть------------------*/
+@import url("../../blocks/content/content.css");
+@import url("../../blocks/carusel/carusel.css");
+@import url("../../blocks/titles/titles.css");
