@@ -16,6 +16,7 @@
     font-size: 24px;
     color: rgba(83, 86, 88, 1);
     border-bottom: 1px dashed #535658;
+    cursor: pointer;
 }
 
 @media screen and (max-width: 780px) {

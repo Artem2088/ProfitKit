@@ -66,8 +66,12 @@
     top: 59px;
 }
 
+.carusel-description {
+    padding: 10px 25px 25px;
+}
+
 .carusel-description__name {
-    padding: 10px 25px 5px;
+    padding-bottom: 5px;
     font-weight: 400;
     font-size: 14px;
     line-height: 20px;
@@ -80,20 +84,16 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .carusel-price__current {
     font-size: 20px;
-    padding-right: 10px;
 }
 
 .carusel-price__old {
-    height: 22px;
-    font-weight: 400;
     font-size: 14px;
     color: #8D9295;
-    display: flex;
-    align-items: center;
 }
 
 .carusel-footer {
@@ -101,7 +101,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    padding: 10px 25px 25px;
+    padding-top: 10px;
     gap: 10px;
 }
 
